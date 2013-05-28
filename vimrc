@@ -1,3 +1,5 @@
+" set shell to load rvm taken from: https://rvm.io/integration/vim/
+set shell=/bin/sh
 set nocompatible
 let mapleader = ","
 
@@ -322,7 +324,28 @@ Bundle 'myusuf3/numbers.vim'
 "
 " Display your buffers as tabs.
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Bundle 'thenoseman/TabBar'
+"Bundle 'thenoseman/TabBar'
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" MiniBufExplorer - Improved
+"
+" Display your buffers as tabs. Elegant buffer explorer - takes very little 
+" screen space
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Bundle 'fholgado/minibufexpl.vim'
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Vim Instant Markdown
+"
+" Instant Markdown previews from VIm!
+"
+" You will need to install through rvm:
+" gem install gem install redcarpet pygments.rb
+"
+" You will need to install through nvm (https://github.com/creationix/nvm):
+" npm -g install instant-markdown-d
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Bundle 'suan/vim-instant-markdown'
 
 " Hide linenumbers for NerdTree
 let NERDTreeShowLineNumbers=0
@@ -493,10 +516,10 @@ endfunction
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " ARROW KEYS ARE UNACCEPTABLE
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <Left> :echo "no!"<cr>
-map <Right> :echo "no!"<cr>
-map <Up> :echo "no!"<cr>
-map <Down> :echo "no!"<cr>
+"map <Left> :echo "no!"<cr>
+"map <Right> :echo "no!"<cr>
+"map <Up> :echo "no!"<cr>
+"map <Down> :echo "no!"<cr>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " tmux stuff

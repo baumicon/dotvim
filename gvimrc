@@ -3,7 +3,7 @@ if has("gui_macvim") && has("gui_running")
   " set fuoptions=maxhorz,maxvert
 
   " Command-T for CtrlP
-  macmenu &File.New\ Tab key=<D-T>
+  "macmenu &File.New\ Tab key=<D-T>
   "map <D-t> :CtrlP<CR>
   "map <D-t> :let g:ctrlp_default_input = 0<cr>:CtrlP<cr>
   "map <Leader><D-t> :let g:ctrlp_default_input = 0<cr>:CtrlPClearCache<cr>:CtrlP<cr>
@@ -81,6 +81,14 @@ set cursorcolumn                " highlight current column
 hi cursorline guibg=#073642     " highlight bg color of current line light:#eee8d5,#F1E1AB dark:#073642
 
 hi! link cursorcolumn cursorline
+
+" MiniBufExpl Colors
+hi MBEVisibleActive guifg=#A6DB29 guibg=#fdf6e3
+hi MBEVisibleChangedActive guifg=#F1266F guibg=#fdf6e3
+hi MBEVisibleChanged guifg=#F1266F guibg=#fdf6e3
+hi MBEVisibleNormal guifg=#5DC2D6 guibg=#fdf6e3
+hi MBEChanged guifg=#CD5907 guibg=#fdf6e3
+hi MBENormal guifg=#808080 guibg=#fdf6e3
 
 " Include user's local vim config
 if filereadable(expand("~/.gvimrc.local"))
