@@ -53,6 +53,7 @@ if has("gui_macvim") && has("gui_running")
 
   " NERDTree toggle
   map <D-N> :NERDTreeTabsToggle<CR>
+  map <D-B> :BuffergatorToggle<CR>
 endif
 
 " Don't beep

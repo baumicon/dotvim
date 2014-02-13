@@ -332,8 +332,18 @@ Bundle 'myusuf3/numbers.vim'
 " Display your buffers as tabs. Elegant buffer explorer - takes very little 
 " screen space
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Bundle 'fholgado/minibufexpl.vim'
+"Bundle 'fholgado/minibufexpl.vim'
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Buffergator
+"
+" Buffergator is a plugin for listing, navigating between, and selecting buffers
+" to edit
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Bundle 'jeetsukumaran/vim-buffergator.git'
+" Control-Shift-B to toggle Buffergator
+" CMD-Shift-B is in gvimrc
+map <C-B> :BuffergatorToggle<cr> "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vim Instant Markdown
 "
