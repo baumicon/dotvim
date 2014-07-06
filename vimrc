@@ -161,7 +161,7 @@ Bundle 'ervandew/supertab'
 "
 " Using my fork until: https://github.com/skalnik/vim-vroom/pull/33
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Bundle 'aaronjensen/vim-vroom'
+Bundle 'skalnik/vim-vroom'
 
 let g:vroom_map_keys = 0
 let g:vroom_write_all = 1
@@ -249,7 +249,7 @@ autocmd FocusLost * call Pl#UpdateStatusline(0)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Just open a YAML file and hit `⌘r` or `<leader>r`. Again to go back.
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Bundle 'henrik/vim-yaml-flattener'
+"Bundle 'henrik/vim-yaml-flattener'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " matchindent.vim
