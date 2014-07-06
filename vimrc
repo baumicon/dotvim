@@ -357,6 +357,12 @@ map <C-B> :BuffergatorToggle<cr> "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Bundle 'suan/vim-instant-markdown'
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" BufOnly
+" :BufOnly without an argument will unload all buffers but the current one.
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Bundle 'vim-scripts/BufOnly.vim'
+
 " Hide linenumbers for NerdTree
 let NERDTreeShowLineNumbers=0
 " Backups and swap
